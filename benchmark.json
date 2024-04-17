@@ -1,0 +1,44 @@
+
+[
+    {
+        "inputs": {
+            "question": "What is MyMillion Medical Plan?"
+        },
+        "outputs": {
+            "expected": "MyMillion Medical Plan is a medical insurance plan that offers full coverage without going over budget. There are different versions of the plan, such as MyMillion Medical Plan - Superior (Annual). To enjoy the offer, the application of the MyMillion Medical Plan should be completed."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is Second Medical Opinion Service?"
+        },
+        "outputs": {
+            "expected": "Second Medical Opinion Service is a service provided by some of the highest-ranked medical professionals to give a second opinion to the public about their medical condition or treatment plan. For more information, you can call 3122 2900."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the objective of Second Medical Opinion Service?"
+        },
+        "outputs": {
+            "expected": "The objective of the Second Medical Opinion Service is to meet the public’s need for a second opinion on a medical diagnosis or treatment plan."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is Cash Benefit for Day Case Procedure?"
+        },
+        "outputs": {
+            "expected": "The Cash Benefit for Day Case Procedure is HKD 500 per Day Case Procedure for the completion of the Day Case Procedure, subject to one visit per day."
+        }
+    },
+    {
+        "inputs": {
+            "question": "什麼是全自主百萬醫療計劃 - 特等計劃?"
+        },
+        "outputs": {
+            "expected": "全自主百萬醫療計劃 - 特等計劃是一種由富衛人壽提供的保險計劃，旨在為香港境內的客戶提供高額醫療保障。該計劃的保費表僅適用於香港境內男性和女性客戶，並且中國內地人士除外。"
+        }
+    }
+]
+
