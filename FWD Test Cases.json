@@ -1,0 +1,767 @@
+[
+    {
+        "inputs": {
+            "question": "What is the name of the website?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "fwd.com"
+        }
+    },
+    {
+        "inputs": {
+            "question": "In what country is the company incorporated?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Bermuda"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the legal name of the company?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD Life Insurance Company (Bermuda) Limited"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of business does the company conduct?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It is an insurance company."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of insurance plans does the company offer?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "They offer non-participating life insurance and a Cancer Protection Plan."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the name of the cancer protection plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "CANsurance"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does FWD believe is important for achieving one's goals and dreams?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD believes that having adequate support and prioritizing health are essential for making life choices that help us stay focused on our goals and dreams."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Why is flexibility important in making life choices according to FWD?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD acknowledges that life is full of uncertainties, and having the flexibility to make decisions can help individuals stay focused on their dreams despite these uncertainties."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Why is it important to consider additional cancer coverage even if you have a group medical plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "While a group medical plan provides some coverage for cancer treatment, it may not be sufficient to cover all the costs associated with cancer care, including consultations and rehabilitation support. Medical advancements in recent years mean that cancer treatment now includes more than just curing the disease, making it important to have adequate coverage for comprehensive care. "
+        }
+    },
+    {
+        "inputs": {
+            "question": "How does CANsurance Cancer Protection Plan help individuals?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The CANsurance Cancer Protection Plan, underwritten by FWD Life Insurance Company (Bermuda) Limited, assists individuals in pursuing their dreams by compensating for insufficient group medical coverage. It provides financial support during cancer treatment, allowing individuals to focus on their medical care. The plan offers flexible medical solutions that adapt to different life stages and circumstances, providing coverage even when individuals are between jobs or unemployed. Individuals also have the option to waive or defer premiums for a certain period."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What benefits does this Plan provide in relation to medical expenses?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "CANsurance_econ-plan-brochure-en_Combined"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "This Plan provides a financial safety net for medical expenses related to cancer treatment. It enables individuals to choose the best available medical care without worrying about the associated costs."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is FWD Life Insurance Company based in?.",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD Life Insurance Company is based in Bermuda."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the website for FWD Life Insurance Company?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The website for FWD Life Insurance Company is fwd.com .hk"
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is FWD Life Insurance Company incorporated with limited liability?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, FWD Life Insurance Company is incorporated in Bermuda with limited liability."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the name of one of FWD's insurance plans?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "MyMillion Medical Plan"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the MyMillion Medical Plan offer?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The MyMillion Medical Plan allows you to get fully covered for medical expenses without going over budget."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of insurance is the MyMillion Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The MyMillion Medical Plan is a non-participating life insurance plan. "
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does \"full coverage\" mean in the context of medical insurance?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It refers to plans with no itemised benefit sublimits, meaning the insured is covered for the actual expenses up to the annual limit."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Why do some individuals prefer group medical insurance over individual plans?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "They may find that individual plans have itemised limits."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What types of services are not fully covered in this specific plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Psychiatric treatments have sublimits and are not fully covered."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of hospitalisation and surgical expenses are included in the preferred plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The plan covers a wide range of hospitalisation and surgical expenses, but is subject to annual limit and deductible (if any)."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of wards and coverage are not desired by the individual?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Private wards and worldwide coverage at expensive premiums are not preferred."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does MyMillion Medical Plan offer in terms of coverage?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "MyMillionMedical_en_new"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The Plan offers full coverage for a range of hospitalisation and surgical benefit items, with no lifetime limit, an Annual Limit of HK$4 million, and various Annual Deductible options."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the name of the medical plan? ",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202306"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "VPrime Medical Plan"
+        }
+    },
+    {
+        "inputs": {
+            "question": "Who is the provider of the medical plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202307"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD Life Insurance Company (Bermuda) Limited"
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is FWD certified as a VHIS Provider?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202308"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, it is certified by the Hong Kong Special Administrative Region Government."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What certification number does FWD have under the Voluntary Health Insurance Scheme?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202309"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "F00045 "
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the name of the comprehensive medical insurance plan certified by the Government?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202310"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "vPrime Medical Plan"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the Plan offer for hospitalisation and surgical expenses?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202311"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Full cover without itemised benefit limits."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What additional benefits does the Plan provide aside from medical coverage?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202312"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Wellness incentives, extra discounts, and tax savings."
+        }
+    },
+    {
+        "inputs": {
+            "question": "In which stages of the treatment journey does the Plan offer full cover for medical costs?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202313"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "In which stages of the treatment journey does the Plan offer full cover for medical costs?"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What do Core policy benefits cover starting from the 31st day of the first Policy Year?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202314"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Core policy benefits cover unknown pre-existing conditions."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the full coverage for in the Core policy benefits?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202315"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The full coverage includes hospitalisation and surgical expenses, up to HKD10 million per Policy Year."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is First-dollar Coverage in the Core policy benefits?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202316"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The Deductible is Waived for Designated Crises."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What are the tax savings offered in the Core policy benefits?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202317"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "There are extra support and tax savings for Stroke rehabilitation."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the Core policy benefits guarantee?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202318"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It guarantees Renewable prime protection up to Age 100 of the Insured Person."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is there a No claims premium discount available in the Core policy benefits?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202319"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, there is a No claims premium discount available."
+        }
+    },
+    {
+        "inputs": {
+            "question": "\u4fc2\u54a9\u60c5\u6cc1\u4e0b\u6703\u5168\u6578\u4fdd\u969c\u7dca\u6025\u9580\u8a3a\u7259\u79d1\u6cbb\u7642",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202320"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "\u82e5\u53d7\u4fdd\u4eba\u56e0\u53d7\u50b7\u800c\u76f4\u63a5\u5c0e\u81f4\u5176\u5065\u5168\u81ea\u7136\u7259\u9f52\u9700\u63a5\u53d7\u6025\u75c7\u6cbb\u7642\uff0c\u4e14\u8a72\u6cbb\u7642\u65bc\u767c\u751f\u610f\u5916\u800c\u5c0e\u81f4\u8a72\u53d7\u50b7\u5f8c3\u500b\u6708\u5167\u7531\u8a3b\u518a\u7259\u91ab\u65bc\u5408\u6cd5 \u8a3b\u518a\u7259\u91ab\u8a3a\u6240\u5167\u63d0\u4f9b\uff0c\u672c\u4fdd\u969c\u5c07\u8ce0\u511f\u5c31\u8a72\u6cbb\u7642\u6240\u7522\u751f\u7684\u5408\u7406\u53ca\u6163\u5e38\u6536\u8cbb\u3002"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is covered under Protection for your precious newborns in the Core policy benefits?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "vPrime_pb_en_202320"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It covers newborns and provides Third-party professional health assistance services."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What type of insurance does FWD Life Insurance Company (Bermuda) Limited offer?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202306"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD Life Insurance Company (Bermuda) Limited offers Non-participating Life Insurance, specifically an Accident Protection Plan."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the name of the accident protection plan offered by FWD Life Insurance Company (Bermuda) Limited?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202307"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "BeEasy Accident Protection Plan"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the BeEasy Accident Protection Plan provide coverage for?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202308"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The BeEasy Accident Protection Plan offers broad accident coverage with deep care."
+        }
+    },
+    {
+        "inputs": {
+            "question": "How does an accident affect people beyond the physical impact?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202309"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "An accident can disrupt the momentum of a person's life due to the many things they have going on currently and in the future."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Why is it important for a person and their family to recuperate quickly after an accident?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202310"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Recuperating quickly after an accident allows a person and their family to regain the momentum they had before the accident."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What do people need beyond more coverage for this recovery process?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202311"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "People need more care in addition to increased coverage to facilitate a swift recovery and regain lost momentum after an accident."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does FWD's BeEasy Accident Protection Plan offer?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202312"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "FWD's BeEasy Accident Protection Plan offers broad cover and deep care for those who encounter an accident. It includes support for physical scarring, waiver of maximum annual reimbursement amount for physiotherapy and chiropractor treatment under eligible conditions, and two different plan levels to choose from based on individual needs and budget."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Why is it important to consider various impacts of an accident?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202313"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "An accident can impact a person in more ways than just physically, as they often happen abruptly and are felt immediately. To address these various impacts, FWD designed a holistic plan with broad cover and deep care for all those needs."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the BeEasy Accident Protection Plan offer for physical scarring?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202314"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The BeEasy Accident Protection Plan offers support for physical scarring directly caused by accidents."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Are there any waivers for annual reimbursement amounts in the plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202315"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, under eligible conditions, the plan includes a waiver of maximum annual reimbursement amount for physiotherapy and chiropractor treatment."
+        }
+    },
+    {
+        "inputs": {
+            "question": "How many different plan levels are available in the BeEasy Accident Protection Plan?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202316"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "There are two different plan levels to choose from in the BeEasy Accident Protection Plan, allowing individuals to select the option that best suits their needs and budget. "
+        }
+    },
+    {
+        "inputs": {
+            "question": "How does the plan work?",
+            "documents": [
+                {
+                    "metadata": {
+                        "file": "BeEasy_pb_en_202317"
+                    }
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The plans offer broad accidental death and disability coverage with double indemnity under specific conditions. They also include additional accidental medical expenses cover, compassionate death benefit, and two plan levels to fit different protection needs and budgets. For deeper care, there's first-in-market 3 Scar due to Accident cover (2), which addresses the impact of scars on one's life, and a 24-hour Worldwide Assistance Service for support whenever and wherever an accident occurs."
+        }
+    }
+]
