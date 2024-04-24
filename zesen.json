@@ -1,0 +1,703 @@
+[
+    
+    {
+        "inputs": {
+            "question": "What types of surgeries are covered under the specified surgical benefits?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "指定手术权益包括任何因疾病或伤害所需的手术。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Surgeries required due to illness or injury."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Does the insurance policy cover prenatal and neonatal conditions?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保險政策涵蓋孕前及新生嬰兒疾病的治療。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, it covers treatments for prenatal and neonatal conditions."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Are outpatient services included in the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "計劃包括門診服務，如專家診所訪問和診斷測試。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, including specialist clinic visits and diagnostic tests."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the maximum age for entry into the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "投保年齡上限為81歲。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "81 years old."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is there a waiting period for the insurance policy to take effect?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保險政策有一個90天的等待期才生效。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "There is a 90-day waiting period."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the policy on coverage for pre-existing conditions?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "已知疾病按政策條款不予覆蓋。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Pre-existing conditions are not covered."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Does the insurance offer any loyalty benefits?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保險計劃提供忠誠客戶福利，包括續保時可享有的折扣和額外福利。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, including renewal discounts and additional benefits."
+        }
+    },
+    {
+        "inputs": {
+            "question": "How are claims processed for international medical treatments?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "國際醫療治療的理賠過程根據所提交的相關醫療文件和支票進行。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Based on the relevant medical documents and invoices submitted."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Are mental health treatments covered under the health insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "健康保險計劃包括精神健康治療的覆蓋，涵蓋諮詢和治療費用。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Yes, covering consultation and treatment costs."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is dental care included in the coverage provided by the insurance policy?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "牙齒護理不包括在內，除非是由於意外造成的急性牙齒損傷。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Not included, unless it is for acute dental injuries caused by accidents."
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险计划中提供的转诊服务包括哪些内容？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "转诊服务包括向专家的转诊以及必要的后续治疗。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "向专家的转诊以及必要的后续治疗"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险政策提供的紧急医疗援助是否有使用次数的限制？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "紧急医疗援助服务没有明确提到使用次数的限制。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "没有明确提到使用次数的限制"
+        }
+    },
+    {
+        "inputs": {
+            "question": "在保单自动续保的情况下，保费是否会根据被保人的年龄调整？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保单自动续保时，保费将根据被保人当时的年龄及相关保费表进行调整。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "根据被保人当时的年龄及相关保费表进行调整"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险产品中是否包含特别的女性疾病保障？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "特别的女性疾病保障包括女性特有的癌症等疾病的保险覆盖。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "包括女性特有的癌症等疾病的保险覆盖"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险计划中提供的生活方式调整福利是什么？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "生活方式调整福利提供一定的资金支持，用于应对重大生活事件后的调整。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "提供一定的资金支持，用于应对重大生活事件后的调整"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险产品对于重大疾病的赔付是如何确定的？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "重大疾病赔付通常基于诊断结果和保险条款中的具体规定。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "基于诊断结果和保险条款中的具体规定"
+        }
+    },
+    {
+        "inputs": {
+            "question": "提供保险服务的公司是否有在全球范围内拥有服务网络？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "公司在全球范围内拥有广泛的服务网络，确保国际保险覆盖。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "在全球范围内拥有广泛的服务网络"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险政策中是否包括家庭成员的保障计划？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保险政策提供选项，允许被保人加入家庭成员，实现家庭整体保障。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "允许被保人加入家庭成员，实现家庭整体保障"
+        }
+    },
+    {
+        "inputs": {
+            "question": "如何处理因交通意外导致的医疗紧急情况？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "保险计划涵盖因交通意外导致的医疗紧急情况，提供必要的医疗援助和费用报销。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "涵盖医疗紧急情况，提供必要的医疗援助和费用报销"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保险公司提供的健康管理服务包括哪些？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "健康管理服务包括健康咨询、定期体检以及疾病预防计划。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "包括健康咨询、定期体检以及疾病预防计划"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險計劃中對於非急症治療的地域範圍是什麼？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "亞洲為非急症治療覆蓋範圍，全球為急症治療覆蓋範圍。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "亞洲"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險計劃提供哪些特定的非手術癌症治療的額外福利？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "計劃中包括為指定危機豁免年度自付額的第一美元覆蓋－包括特定的癌症、心臟病和中風。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "特定的癌症、心臟病和中風"
+        }
+    },
+    {
+        "inputs": {
+            "question": "年度限額是多少？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "年度限額為400萬港幣。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "400萬港幣"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險計劃覆蓋的年齡範圍是多少？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "保險計劃的發行年齡從1（15天）至81歲。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "1（15天）至81歲"
+        }
+    },
+    {
+        "inputs": {
+            "question": "如何理解'全覆蓋'在保險計劃中的含義？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "全覆蓋意味著没有项目化福利次限額，扣除年度自付余额（如有）後，依据年度限額支付符合条件的费用。全覆蓋僅適用於选定的福利项目，而其他福利项目未被全覆蓋，並受各自福利项目限額的制約。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "没有项目化福利次限額，扣除年度自付余额（如有）後，依据年度限額支付符合条件的费用"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險計劃提供的腎透析覆蓋包括哪些内容？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "腎透析覆蓋包括在家中使用的腎透析机的租金成本。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "在家中使用的腎透析机的租金成本"
+        }
+    },
+    {
+        "inputs": {
+            "question": "計劃是否提供國際SOS 24小時全球援助服務？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "計劃提供國際SOS 24小時全球援助服務，確保幫助隨時可得。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "是"
+        }
+    },
+    {
+        "inputs": {
+            "question": "新生兒可以享受的保險覆蓋期限是多久？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "每個新生兒可以在没有額外成本的情況下享受指定醫療計劃的覆蓋，為期1年。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "1年"
+        }
+    },
+    {
+        "inputs": {
+            "question": "如果保單持有人在90天内合理地意识到任何指定危機，會如何影响年度自付額的豁免？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "如果保單持有人在90天内合理地意识到任何指定危機，則不適用年度自付額豁免。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "不適用年度自付額豁免"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險計劃中提到的'指定危機'包括哪些情況？",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "指定危機包括心臟病、特定癌症、中風等重大疾病。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "心臟病、特定癌症、中風等重大疾病"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the annual deductible range available in the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "年度自付選項包括港幣10,000元、港幣30,000元及港幣60,000元。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "港幣10,000元、港幣30,000元及港幣60,000元"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What types of treatments are covered under the 'Prescribed Non-surgical Cancer Treatments' benefit?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "覆蓋的治療包括放療、化療、靶向治療、免疫治療和激素治療。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "放療、化療、靶向治療、免疫治療和激素治療"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the maximum benefit limit per policy year for additional benefits for non-surgical cancer treatments and other specified treatments?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "每保單年度的最大福利限額為港幣2,000,000元。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "港幣2,000,000元"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What services are provided by PREMIER THE ONEcierge?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "PREMIER THE ONEcierge提供支持服務，包括無現金支付設施和量身定制的治療，並在泛亞地區（包括香港、中國大陸、台灣、新加坡和日本）專門為您提供一站式解決方案。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "提供支持服務，包括無現金支付設施和量身定制的治療，並在泛亞地區（包括香港、中國大陸、台灣、新加坡和日本）專門為您提供一站式解決方案"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the territorial scope of cover for non-Emergency Treatments under the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "亞洲為非急症治療覆蓋範圍。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "亞洲"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the policy provision for International SOS 24-hour Worldwide Assistance Services?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "提供國際SOS 24小時全球援助服務，確保幫助隨時可得。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "提供國際SOS 24小時全球援助服務，確保幫助隨時可得"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What are the currency options available for premium payment in the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "保費支付方式為港幣。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "港幣"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What conditions must be met for guaranteed renewability of the insurance policy?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "保險計劃提供保證續保，續保無需提供保險條件證明，直至被保險人年滿100歲。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "續保無需提供保險條件證明，直至被保險人年滿100歲"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the scope of coverage for Emergency Treatments?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "急症治療的覆蓋範圍為全球。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "全球"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What does the insurance plan specify about coverage of psychiatric treatments?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "精神病治療的年度限額為港幣40,000元，僅適用於香港的住院治療。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "年度限額為港幣40,000元，僅適用於香港的住院治療"
+        }
+    },
+    {
+        "inputs": {
+            "question": "富衛人壽保險公司的全名是什么？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "此保險計劃由富衛人壽保險（百慕達）有限公司（「富衛人壽」）提供及承保。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "富衛人壽保險（百慕達）有限公司"
+        }
+    },
+    {
+        "inputs": {
+            "question": "HKTIA是什么公司的全资子公司？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "HKT Financial Services (IA) Limited ('HKTIA') 是香港电讯有限公司的全资子公司。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "香港电讯有限公司"
+        }
+    },
+    {
+        "inputs": {
+            "question": "保障范围内的癌症治疗权益包括哪些内容？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "癌症治疗权益包括住院及手术权益和治疗权益。住院及手术权益包括住房费、医生或专科医生巡房费、深切治疗部费用、家属医院陪床费、手术费用及医院杂费。治疗权益包括非手术癌症治疗，如化疗、放射治疗、标靶治疗、癌症荷尔蒙治疗及处方药物。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "住院及手术权益和治疗权益"
+        }
+    },
+    {
+        "inputs": {
+            "question": "客户服务热线的工作时间是什么时候？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "客户服务热线8209 0098 (星期一至五上午九时至晚上六时，公众假期除外)。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "星期一至五上午九时至晚上六时，公众假期除外"
+        }
+    },
+    {
+        "inputs": {
+            "question": "富衛人壽在什么地方注册成立？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "富衛人壽保險公司（百慕達）有限公司（於百慕達注册成立之有限公司）"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "百慕達"
+        }
+    },
+    {
+        "inputs": {
+            "question": "在哪些地区可以获得该保险产品的保障？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "保障地区亚洲，包括阿富汗、孟加拉、不丹、汶莱、柬埔寨、香港、印度、印尼、日本、哈萨克、吉尔吉斯、老挝、澳门、中国内地、马来西亚、马尔代夫、蒙古、缅甸、尼泊尔、北韩、巴基斯坦、菲律宾、新加坡、南韩、斯里兰卡、台湾、塔吉克、泰国、东帝汶、土库曼、乌兹别克及越南。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "亚洲"
+        }
+    },
+    {
+        "inputs": {
+            "question": "富衛人壽的客户服务电子邮箱地址是什么？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "cs.clubcare.hk@pccw.com"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "cs.clubcare.hk@pccw.com"
+        }
+    },
+    {
+        "inputs": {
+            "question": "如何处理保险申请不被接受的情况？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "所有保险申请以富衛人壽的承保及接纳为准。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "以富衛人壽的承保及接纳为准"
+        }
+    },
+    {
+        "inputs": {
+            "question": "何时需要向保险监管局缴纳保费征费？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "根据《保险业条例》（第 41 章），由2018年1月1日起，IA开始通过保险公司向保单持有人按保费收取征费。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "由2018年1月1日起"
+        }
+    },
+    {
+        "inputs": {
+            "question": "富衛人壽提供的退保规则是怎样的？",
+            "documents": [
+                {
+                    "metadata": {"file": "揀易保癌症保障計劃_econ-plan-brochure-tc_combined.pdf"},
+                    "page_content": "若您要将保单退保，保单权益人需要向富衛提交填妥的退保申请表格或以富衛接受的任何其他方式通知富衛。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "需要提交填妥的退保申请表格或以富衛接受的任何其他方式通知富衛"
+        }
+    }
+]
