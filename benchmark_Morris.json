@@ -3,6 +3,12 @@
     {
         "inputs": {
             "question": "What is MyMillion Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "MyMillion Medical Plan (the “Plan”) allows you to enjoy full coverage for a range of hospitalisation and surgical beneft items, with no lifetime limit, an Annual Limit of HK$4 million and a range of Annual Deductible options to suit your budget and needs."
+                }
+            ]
         },
         "outputs": {
             "label": "MyMillion Medical Plan is a medical insurance plan that offers full coverage without going over budget. There are different versions of the plan, such as MyMillion Medical Plan - Superior (Annual). To enjoy the offer, the application of the MyMillion Medical Plan should be completed."
@@ -10,7 +16,13 @@
     },
     {
         "inputs": {
-            "question": "What is Second Medical Opinion Service?"
+            "question": "What is Second Medical Opinion Service?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The objective of the Second Medical Opinion Service is to meet the public’s increasing demands for the best possible medical treatment bearing in mind the continual development of leading-edge treatments for diseases."
+                }
+            ]
         },
         "outputs": {
             "label": "Second Medical Opinion Service is a service provided by some of the highest-ranked medical professionals to give a second opinion to the public about their medical condition or treatment plan. For more information, you can call 3122 2900."
@@ -18,7 +30,13 @@
     },
     {
         "inputs": {
-            "question": "What is the objective of Second Medical Opinion Service?"
+            "question": "What is the objective of Second Medical Opinion Service?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The objective of the Second Medical Opinion Service is to meet the public’s increasing demands for the best possible medical treatment bearing in mind the continual development of leading-edge treatments for diseases."
+                }
+            ]
         },
         "outputs": {
             "label": "The objective of the Second Medical Opinion Service is to meet the public’s need for a second opinion on a medical diagnosis or treatment plan."
