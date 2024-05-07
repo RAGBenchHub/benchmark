@@ -44,7 +44,41 @@
     },
     {
         "inputs": {
-            "question": "What is Cash Benefit for Day Case Procedure?"
+            "question": "What is Compassionate Death Benefit?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Compassionate Death Benefit HKD 15,000"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The Compassionate Death Benefit is HKD 15,000."
+        }
+    },
+    {
+        "inputs": {
+            "question": "恩恤身故權益是多少？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "恩恤身故權益 15,000港元"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "恩恤身故權益是15,000港元"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is Cash Benefit for Day Case Procedure?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "HKD 500 per Day Case Procedure"
+                }
+            ]
         },
         "outputs": {
             "label": "The Cash Benefit for Day Case Procedure is HKD 500 per Day Case Procedure for the completion of the Day Case Procedure, subject to one visit per day."
@@ -52,7 +86,13 @@
     },
     {
         "inputs": {
-            "question": "什麼是全自主百萬醫療計劃 - 特等計劃?"
+            "question": "什麼是全自主百萬醫療計劃 - 特等計劃?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "本計劃是由富衛發行。富衛對本計劃所載資料的準確性承擔一切責任。本計劃資料只在香港特別行政區(「香港」) 派發，並不能詮釋為在香港境外出售，游說購買或提供富衛的保險產品。本計劃的銷售及申請程序必須在香港境內 進行及完成手續。"
+                }
+            ]
         },
         "outputs": {
             "label": "全自主百萬醫療計劃 - 特等計劃是一種由富衛人壽提供的保險計劃，旨在為香港境內的客戶提供高額醫療保障。該計劃的保費表僅適用於香港境內男性和女性客戶，並且中國內地人士除外。"
@@ -60,7 +100,41 @@
     },
     {
         "inputs": {
-            "question": "What is the customer service hotline for insurance product inquiries?"
+            "question": "What is the MyMillion Medical Plan - Superior Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "MyMillion Medical Plan – Superior (Annual Deductible HK$ 60,000) for themselves and both policies are issued on 1 Feb 2023."
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It is a medical insurance plan under MyMillion Medical Plan that provides comprehensive coverage for a range of hospitalization and surgical expenses within Asia, subject to an annual coverage limit and annual deductible."
+        }
+    },
+    {
+        "inputs": {
+            "question": "保險產品諮詢的客戶服務熱線是？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "customer service hotline 8209 0098"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "客戶服務熱線是8209 0098。"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the customer service hotline for insurance product inquiries?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "customer service hotline 8209 0098"
+                }
+            ]
         },
         "outputs": {
             "label": "The customer service hotline is 8209 0098."
@@ -68,15 +142,41 @@
     },
     {
         "inputs": {
-            "question": "What are the operating hours for customer service?"
+            "question": "What are the operating hours for customer service?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "Monday to Friday 9:00 am - 6:00pm, except Public Holidays"
+                }
+            ]
         },
         "outputs": {
-            "label": "Customer service operates from **Monday to Friday, 9:00 am - 6:00 pm**, except on public holidays."
+            "label": "Customer service operates from Monday to Friday, 9:00 am - 6:00 pm, except on public holidays."
         }
     },
     {
         "inputs": {
-            "question": "What is the email address for customer service?"
+            "question": "客戶服務熱線服務時間是？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content":  "星期一至五上午九時至晚上六時， 公眾假期除外"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "客戶服務熱線服務時間是星期一至五上午九時至晚上六時， 公眾假期除外"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the email address for customer service?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "cs.clubcare.hk@pccw.com"
+                }
+            ]
         },
         "outputs": {
             "label": "The email address is cs.clubcare.hk@pccw.com"
@@ -84,7 +184,27 @@
     },
     {
         "inputs": {
-            "question": "Who is HKT Financial Services (IA) Limited?"
+            "question": "客戶服務熱線電郵地址是？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content":  "cs.clubcare.hk@pccw.com"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "客戶服務熱線電郵地址是cs.clubcare.hk@pccw.com"
+        }
+    },
+    {
+        "inputs": {
+            "question": "Who is HKT Financial Services (IA) Limited?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "HKT Financial Services (IA) Limited (“HKTIA”) is a wholly owned subsidiary of HKT Limited (HKT Limited is a company incorporated in the Cayman Islands with limited liability), arranging for a wide range of life insurance and general insurance products under the brand of Club Care."
+                }
+            ]
         },
         "outputs": {
             "label": "HKT Financial Services (IA) Limited (HKTIA) is a wholly owned subsidiary of HKT Limited, arranging a wide range of life insurance and general insurance products under the brand of Club Care."
@@ -92,7 +212,27 @@
     },
     {
         "inputs": {
-            "question": "What is the license number of HKTIA?"
+            "question": "HKTIA是什麼公司?",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "HKT Financial Services (IA) Limited (「HKTIA」) 為香港電訊有限公司 (香港電訊有限公司是一家於開曼群島 註冊成立的有限公司) 旗下的全資附屬公司，以 Club Care 品牌安排多元化的人壽保險及一般保險產品。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "HKT Financial Services (IA) Limited (「HKTIA」) 為香港電訊有限公司(香港電訊有限公司是一家於開曼群島 註冊成立的有限公司)旗下的全資附屬公司，以 Club Care 品牌安排多元化的人壽保險及一般保險產品。"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the license number of HKTIA?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "HKTIA is a licensed insurance agency in Hong Kong and regulated by the Insurance Authority of Hong Kong (Licensed insurance Agency License No. FA2474)"
+                }
+            ]
         },
         "outputs": {
             "label": "HKTIA's licensed insurance agency license number is FA2474."
@@ -100,15 +240,28 @@
     },
     {
         "inputs": {
-            "question": "Who underwrites the insurance plan?"
+            "question": "HKTIA的持牌保險代理牌照號碼是？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content": "HKTIA 為香港的持牌保險代理機構並受香港之保險業監管局監管 (持牌保險代理牌照號碼 : FA2474)。"
+                }
+            ]
         },
         "outputs": {
-            "label": "The insurance plan is provided and underwritten by FWD Life Insurance Company (Bermuda) Limited."
+            "label": "HKTIA的持牌保險代理牌照號碼是FA2474."
         }
     },
+
     {
         "inputs": {
-            "question": "What is the levy on insurance premiums?"
+            "question": "What is the levy on insurance premiums?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "For details, please refer to Sections 13 and 14 of Part 2 of the Terms and Benefits under the Policy provisions. Effective from 1 January 2018, all Policy Holder are required to pay a levy on each premium payment made for both new and in-force Hong Kong policies to the Insurance Authority. "
+                }
+            ]
         },
         "outputs": {
             "label": "The Insurance Authority of Hong Kong collects a levy on insurance premiums from policyholders through insurance companies."
@@ -116,15 +269,87 @@
     },
     {
         "inputs": {
-            "question": "Is the insurance product intended to be offered outside Hong Kong?"
+            "question": "Is the insurance product intended to be offered in Mainland China?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Premium Schedule (HKD) (Male and Female) (excluding Mainland Chinese)"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "No, the insurance product is not intended to be offered in Mainland China."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Is the insurance product intended to be offered outside Hong Kong?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Premium Schedule (HKD) (Male and Female) (excluding Mainland Chinese)"
+                }
+            ]
         },
         "outputs": {
             "label": "No, the insurance product is intended to be offered in Hong Kong only"
         }
     },
+
     {
         "inputs": {
-            "question": "What commission does HKTIA receive?"
+            "question": "陳先生在意輕鬆意外保障計劃的原有投保額是？",
+            "documents": [
+                {
+                    "metadata": {"file": "意輕鬆意外保障計劃_pb_tc_202306.pdf"},
+                    "page_content": "被保人:陳先生(Peter) 下次生日年齡:35 職業:行政助理 本計劃(優越計劃)的原有投保額: 1,000,000 港元"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "陳先生在意輕鬆意外保障計劃的原有投保額是1,000,000 港元。"
+        }
+    },
+
+    {
+        "inputs": {
+            "question": "陳先生在意輕鬆意外保障計劃可獲得的適用賠償總額是？",
+            "documents": [
+                {
+                    "metadata": {"file": "意輕鬆意外保障計劃_pb_tc_202306.pdf"},
+                    "page_content": "Peter 可獲得的適用賠償總額如下: 賠償金額(港元） 440,000"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "陳先生在意輕鬆意外保障計劃可獲得的適用賠償總額是440,000港元。"
+        }
+    },
+
+    {
+        "inputs": {
+            "question": "Peter的妻子在意輕鬆意外保障計劃可獲得的適用賠償總額是？",
+            "documents": [
+                {
+                    "metadata": {"file": "意輕鬆意外保障計劃_pb_tc_202306.pdf"},
+                    "page_content": "受益人，即 Peter 的妻子可獲得以下的賠償總額以作財政支援: 賠償金額(港元） 1,570,000"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "Peter的妻子在意輕鬆意外保障計劃可獲得的適用賠償總額是1,570,000港元。"
+        }
+    },
+
+    {
+        "inputs": {
+            "question": "What commission does HKTIA receive?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The premiums of the insurance product will be payable to FWD Life, (or through HKTIA on behalf of FWD Life in respect of online applications made on Club Care’s website (where applicable)), and HKTIA will receive commission from FWD Life for acting as an appointed licensed insurance agency for FWD Life."
+                }
+            ]
         },
         "outputs": {
             "label": "HKTIA receives commission from FWD Life for acting as an appointed licensed insurance agency."
@@ -132,40 +357,60 @@
     },
     {
         "inputs": {
-            "question": "To whom are the premiums of the insurance product payable?"
+            "question": "To whom are the premiums of the insurance product payable?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The premiums of the insurance product will be payable to FWD Life, (or through HKTIA on behalf of FWD Life in respect of online applications made on Club Care’s website (where applicable)), and HKTIA will receive commission from FWD Life for acting as an appointed licensed insurance agency for FWD Life."
+                }
+            ]
         },
         "outputs": {
-            "label": "The premiums are payable to **FWD Life**, or through HKTIA on behalf of FWD Life for online applications made on Club Care’s website."
-        }
-    },
-    {
-        "inputs": {
-            "question": "What is HKTIA's role in relation to the insurance products?"
-        },
-        "outputs": {
-            "label": "HKTIA's role is limited to the distribution and arrangement of the insurance products of FWD Life only."
-        }
-    },
-    {
-        "inputs": {
-            "question": "Who is responsible for the features and benefits of the insurance product?"
-        },
-        "outputs": {
-            "label": "FWD Life is solely responsible for all features, policy approvals, coverage, account maintenance, and benefit payment in connection with the insurance product."
-        }
-    },
-    {
-        "inputs": {
-            "question": "What is the MyMillion Medical Plan?"
-        },
-        "outputs": {
-            "label": "It is a medical insurance plan that provides comprehensive coverage for a range of inpatient and surgical benefits, subject to an annual limit and annual deductible."
+            "label": "The premiums are payable to FWD Life, or through HKTIA on behalf of FWD Life for online applications made on Club Care’s website."
         }
     },
 
     {
         "inputs": {
-            "question": "What does 'full coverage' mean in the context of the MyMillion Medical Plan?"
+            "question": "What is Standard Semi-private Room?",
+            "documents": [
+                {
+                    "metadata": {"file": "vPrime_pb_en_202306.pdf"},
+                    "page_content": "Standard Semi-private Room shall mean a single or double occupancy room in a Hospital, with a shared bath or shower room."
+                }
+            ]
+            
+        },
+        "outputs": {
+            "label":"Standard Semi-private Room is a single or double occupancy room in a Hospital, with a shared bath or shower room."
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is Standard Semi-private Room in vPrime Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "vPrime_pb_en_202306.pdf"},
+                    "page_content": "Standard Semi-private Room shall mean a single or double occupancy room in a Hospital, with a shared bath or shower room."
+                }
+            ]
+            
+        },
+        "outputs": {
+            "label":"Standard Semi-private Room is a single or double occupancy room in a Hospital, with a shared bath or shower room."
+        }
+    },
+
+
+    {
+        "inputs": {
+            "question": "What does 'full coverage' mean in the context of the MyMillion Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Full coverage/cover/fully cover means no itemised benefit sublimit, the actual amount of Eligible Expenses charged after deducting the Balance of Annual Deductible (if any) and is subject to the Annual Limit. Full cover applies to selected benefit items only, while other benefit items are not fully covered and are subject to respective benefit item’s limits. Please refer to Benefit Schedule and policy provisions for details. For Psychiatric Treatments covered by this Plan, full cover is not applicable and sublimit applies."
+                }
+            ]
         },
         "outputs": {
             "label": "Full coverage means there are no sub-limits for compensation, and it applies to eligible expenses after deducting the annual deductible, subject to the annual limit."
@@ -173,7 +418,13 @@
     },
     {
         "inputs": {
-            "question": "What are the operating hours for the customer service hotline?"
+            "question": "What are the operating hours for the customer service hotline?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "Monday to Friday 9:00 am - 6:00pm, except Public Holidays"
+                }
+            ]
         },
         "outputs": {
             "label": "The operating hours are Monday to Friday, 9:00 am - 6:00 pm, except on public holidays."
@@ -181,7 +432,13 @@
     },
     {
         "inputs": {
-            "question": "What is the customer service hotline for Club Care insurance products?"
+            "question": "What is the customer service hotline for Club Care insurance products?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "customer service hotline 8209 0098"
+                }
+            ]
         },
         "outputs": {
             "label": "The customer service hotline for Club Care insurance products is 8209 0098."
@@ -189,7 +446,13 @@
     },
     {
         "inputs": {
-            "question": "What is the Second Medical Opinion Service?"
+            "question": "Tell me about Second Medical Opinion Service",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The objective of the Second Medical Opinion Service is to meet the public’s increasing demands for the best possible medical treatment bearing in mind the continual development of leading-edge treatments for diseases."
+                }
+            ]
         },
         "outputs": {
             "label": "It is a service provided to policyholders diagnosed with specified diseases to seek additional medical opinions from top medical institutions in the United States through International SOS."
@@ -197,23 +460,27 @@
     },
     {
         "inputs": {
-            "question": "What are the room level adjustment factors for the MyMillion Medical Plan?"
+            "question": "What is the annual limit for the MyMillion Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Annual Limit (applicable to items I to III) HKD 4,000,000 per Policy Year"
+                }
+            ]
         },
         "outputs": {
-            "label": "The factors are 100% for standard ward, 50% for semi-private room, 25% for private room, and 12.5% for above private room level."
+            "label": "The annual limit for the plan is HKD 4,000,000"
         }
     },
     {
         "inputs": {
-            "question": "What is the annual limit for the MyMillion Medical Plan?"
-        },
-        "outputs": {
-            "label": "The annual limit for the plan is **HKD 4,000,000"
-        }
-    },
-    {
-        "inputs": {
-            "question": "What is not included in the full coverage of the MyMillion Medical Plan?"
+            "question": "What is not included in the full coverage of the MyMillion Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "Full coverage/cover/fully cover means no itemised benefit sublimit, the actual amount of Eligible Expenses charged after deducting the Balance of Annual Deductible (if any) and is subject to the Annual Limit. Full cover applies to selected benefit items only, while other benefit items are not fully covered and are subject to respective benefit item’s limits. Please refer to Benefit Schedule and policy provisions for details. For Psychiatric Treatments covered by this Plan, full cover is not applicable and sublimit applies."
+                }
+            ]
         },
         "outputs": {
             "label": "Full coverage does not apply to psychiatric treatments, which have separate sub-limits for compensation."
@@ -221,7 +488,13 @@
     },
     {
         "inputs": {
-            "question": "Who underwrites the insurance plan provided by Club Care?"
+            "question": "Who underwrites the insurance plan provided by Club Care?",
+            "documents": [
+                {
+                    "metadata": {"file": "CANsurance_econ-plan-brochure-en_Combined"},
+                    "page_content": "CANsurance Cancer Protection Plan (“the Plan”, “this Plan” or “this Product”) which is underwritten by FWD Life Insurance Company (Bermuda) Limited (incorporated in Bermuda with limited liability) (“FWD”)"
+                }
+            ]
         },
         "outputs": {
             "label": "The insurance plan is underwritten by FWD Life Insurance Company (Bermuda) Limited."
@@ -229,15 +502,13 @@
     },
     {
         "inputs": {
-            "question": "Where can I find the full terms and conditions of the insurance plan?"
-        },
-        "outputs": {
-            "label": "The full terms and conditions can be found in the relevant policy documents, including the policy provisions and the product brochure."
-        }
-    },
-    {
-        "inputs": {
-            "question": "What should I read before purchasing an insurance product from Club Care?"
+            "question": "What should I read before purchasing an insurance product from Club Care?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "Please read the related product brochure, policy provisions, Personal Information Collection Statement of FWD Life and Personal Information Collection Statement of HKTIA before purchasing the insurance product. For enquiries relating to the insurance product, please contact Club Care Customer Service Hotline at 8209 0098."
+                }
+            ]
         },
         "outputs": {
             "label": "You should read the related product brochure, policy provisions, and Personal Information Collection Statements of FWD Life and HKTIA."
@@ -245,7 +516,13 @@
     },
     {
         "inputs": {
-            "question": "Will HKTIA provide legal, accounting, or tax advice?"
+            "question": "Will HKTIA provide legal, accounting, or tax advice?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":   "HKTIA will not render you any legal, accounting or tax advice. You are advised to check with your own professional advisor for advice relevant to your circumstances."
+                }
+            ]
         },
         "outputs": {
             "label": "No, HKTIA will not render any legal, accounting, or tax advice."
@@ -253,7 +530,27 @@
     },
     {
         "inputs": {
-            "question": "What is the levy on insurance premiums collected by the Insurance Authority?"
+            "question": "HKTIA會提供法律、會計或稅務意見嗎？",
+            "documents": [
+                {
+                    "metadata": {"file": "全自主百萬醫療計劃_tc_new2.pdf"},
+                    "page_content":   "HKTIA 將不會向您提供任何法律、會計或稅務意見。建議您諮詢自己的專業顧問以獲取與您的情況有關的建議。"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "HKTIA 將不會向您提供任何法律、會計或稅務意見。"
+        }
+    },
+    {
+        "inputs": {
+            "question": "What is the levy on insurance premiums collected by the Insurance Authority?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "For details, please refer to Sections 13 and 14 of Part 2 of the Terms and Benefits under the Policy provisions. Effective from 1 January 2018, all Policy Holder are required to pay a levy on each premium payment made for both new and in-force Hong Kong policies to the Insurance Authority. "
+                }
+            ]
         },
         "outputs": {
             "label": "The levy is a fee collected on insurance premiums from policyholders through insurance companies, starting from January 1, 2018."
@@ -261,7 +558,13 @@
     },
     {
         "inputs": {
-            "question": "To whom are the premiums of the insurance product payable?"
+            "question": "To whom are the premiums of the insurance product payable?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "The premiums of the insurance product will be payable to FWD Life, (or through HKTIA on behalf of FWD Life in respect of online applications made on Club Care’s website (where applicable)), and HKTIA will receive commission from FWD Life for acting as an appointed licensed insurance agency for FWD Life."
+                }
+            ]  
         },
         "outputs": {
             "label": "The premiums are payable to FWD Life, or through HKTIA on behalf of FWD Life for online applications made on Club Care's website."
@@ -269,7 +572,13 @@
     },
     {
         "inputs": {
-            "question": "What should I read before purchasing the insurance product?"
+            "question": "What should I read before purchasing the insurance product?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "Please read the related product brochure, policy provisions, Personal Information Collection Statement of FWD Life and Personal Information Collection Statement of HKTIA before purchasing the insurance product. For enquiries relating to the insurance product, please contact Club Care Customer Service Hotline at 8209 0098."
+                }
+            ]
         },
         "outputs": {
             "label": "Read the related product brochure, policy provisions, Personal Information Collection Statement of FWD Life, and Personal Information Collection Statement of HKTIA."
@@ -277,7 +586,13 @@
     },
     {
         "inputs": {
-            "question": "Where can I find the full terms and conditions of the insurance plan?"
+            "question": "Where can I find the full terms and conditions of the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content":  "For full terms and conditions, details and risk disclosures of the relevant insurance plan, please refer to relevant product brochure and policy documents."
+                }
+            ]
         },
         "outputs": {
             "label": "For full terms and conditions, refer to the relevant policy documents, including the policy provisions and the product brochure."
@@ -285,23 +600,73 @@
     },
     {
         "inputs": {
-            "question": "What is the MyMillion Medical Plan - Superior Plan?"
+            "question": "尊衛您醫療計劃是？",
+            "documents": [
+                {
+                    "metadata": {"file": "尊衛您醫療計劃_pb_tc_202306.pdf"},
+                    "page_content": "尊衛您醫療計劃為香港特別行政區政府(「政府」)自願醫保計劃的認可靈活計劃 (認可產品編號:F00045)"
+                }
+            ]
+            
         },
         "outputs": {
-            "label": "It is a medical insurance plan that provides comprehensive coverage for a range of hospitalization and surgical expenses within Asia, subject to an annual coverage limit and annual deductible."
+            "label": "尊衛您醫療計劃是香港特別行政區政府(「政府」)自願醫保計劃的認可靈活計劃。"
+        }
+    },
+
+    {
+        "inputs": {
+            "question": "vPrime Medical Plan是？",
+            "documents": [
+                {
+                    "metadata": {"file": "vPrime_pb_en_202306.pdf"},
+                    "page_content": "vPrime Medical Plan is a Flexi Plan certified by the Hong Kong Special Administrative Region Government (the “Government”) under the Voluntary Health Insurance Scheme (“VHIS”) (Certification Number: F00045)"
+                }
+            ]
+            
+        },
+        "outputs": {
+            "label": "尊衛您醫療計劃是香港特別行政區政府(「政府」)自願醫保計劃的認可靈活計劃。"
         }
     },
     {
         "inputs": {
-            "question": "What is the MyMillion Medical Plan - Superior Plan?"
+            "question": "What is 尊衛您醫療計劃?",
+            "documents": [
+                {
+                    "metadata": {"file": "尊衛您醫療計劃_pb_tc_202306.pdf"},
+                    "page_content": "尊衛您醫療計劃為香港特別行政區政府(「政府」)自願醫保計劃的認可靈活計劃 (認可產品編號:F00045)"
+                }
+            ]
+            
         },
         "outputs": {
-            "label": "It is a medical insurance plan that provides comprehensive coverage for a range of hospitalization and surgical expenses within Asia, subject to an annual coverage limit and annual deductible."
+            "label": "vPrime Medical Plan is a Flexi Plan certified by the Hong Kong Special Administrative Region Government."
         }
     },
     {
         "inputs": {
-            "question": "Who provides vPrime Medical Plan?"
+            "question": "Who underwrites the insurance plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "CANsurance_econ-plan-brochure-en_Combined"},
+                    "page_content": "CANsurance Cancer Protection Plan (“the Plan”, “this Plan” or “this Product”) which is underwritten by FWD Life Insurance Company (Bermuda) Limited (incorporated in Bermuda with limited liability) (“FWD”)"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "The insurance plan is provided and underwritten by FWD Life Insurance Company (Bermuda) Limited."
+        }
+    },
+    {
+        "inputs": {
+            "question": "Who provides vPrime Medical Plan?",
+            "documents": [
+                {
+                    "metadata": {"file": "vPrime_pb_en_202306.pdf"},
+                    "page_content": "What this plan covers, vPrime Medical Plan – Benefit Schedule. You may refer to the Deductible example or other information at FWD’s website."
+                }
+            ]
         },
         "outputs": {
             "label": "vPrime Medical Plan is provided by FWD insurance."
@@ -310,7 +675,12 @@
     {
         "inputs": {
             "question": "When is vPrime Medical Plan (Standalone Plan) effective from?",
-            
+            "documents": [
+                {
+                    "metadata": {"file": "vPrime_pb_en_202306.pdf"},
+                    "page_content": "Effective from 24 January, 2022"
+                }
+            ],
             "chat_history": [
                 {"role": "user", "content": "Who provides vPrime Medical Plan?"},
                 {
@@ -325,20 +695,39 @@
     },
     {
         "inputs": {
-            "question": "What is the annual price for 24-year-old man with 50,000 hkd deductible?",
-            
-            "chat_history": [
-                {"role": "user", "content": "Who provides vPrime Medical Plan?"},
+            "question": "What is the annual price for 24-year-old man with 30,000 hkd deductible?",
+            "documents": [
                 {
-                    "role": "assistant",
-                    "content": "vPrime Medical Plan is provided by FWD insurance."
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "MyMillion Medical Plan - Superior Plan, Annual Deductible (HKD) 30,000, Attained age 24, Annual 1,976"
                 }
             ]
         },
         "outputs": {
-            "label": "It is 2,884,000 hkd"
+            "label": "It is 1,976 hkd"
         }
     },
+    {
+        "inputs": {
+            "question": "What is the annual price for 24-year-old man with 30,000 hkd deductible?",
+            "chat_history": [
+                {"role": "user", "content": "What is MyMillion Medical Plan - Superior Plan?"},
+                {
+                    "role": "assistant",
+                    "content": "MyMillion Medical Plan is a medical insurance plan that offers full coverage without going over budget. There are different versions of the plan, such as MyMillion Medical Plan - Superior (Annual). To enjoy the offer, the application of the MyMillion Medical Plan should be completed."
+                }
+            ],
+            "documents": [
+                {
+                    "metadata": {"file": "MyMillionMedical_en_new.pdf"},
+                    "page_content": "MyMillion Medical Plan - Superior Plan, Annual Deductible (HKD) 30,000, Attained age 24, Annual 1,976"
+                }
+            ]
+        },
+        "outputs": {
+            "label": "It is 1,976 hkd"
+        }
+    }
   
 ]
 
